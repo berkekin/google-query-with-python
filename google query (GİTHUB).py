@@ -22,6 +22,6 @@ def save_results_to_file(results, filename="search_results.txt"):
 api_key = "YOUR APİ KEY"
 cse_id = "YOUR CSE ID"
 
-# Burada arama sorgusuna istediğiniz telefon numarasını ekliyorum
+# Burada arama sorgusuna istediğiniz telefon numarasını yazın
 search_results = google_search(" +901111111111", api_key, cse_id, num=5)
 save_results_to_file(search_results)
